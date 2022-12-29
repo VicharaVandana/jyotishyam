@@ -81,6 +81,68 @@ debilitation_signs = [  "Libra",        "Scorpio",      "Cancer",
                         "Aries",        "Scorpio",      "Taurus"
                      ]
 
+ben_mal_neut_bylagna = [ {  #Aries lagna
+                            "benefics" : ["Sun", "Moon", "Mars", "Jupiter", "Venus"],
+                            "malefics" : ["Mercury", "Saturn"],
+                            "neutral"  : [],
+                         },
+                         {  #Taurus lagna
+                            "benefics" : ["Sun", "Moon", "Mars", "Mercury", "Venus", "Saturn"],
+                            "malefics" : ["Jupiter"],
+                            "neutral"  : [],
+                         },
+                         {  #Gemini lagna
+                            "benefics" : ["Moon", "Mercury", "Jupiter", "Venus", "Saturn"],
+                            "malefics" : ["Mars"],
+                            "neutral"  : ["Sun"],
+                         },
+                         {  #Cancer lagna
+                            "benefics" : ["Moon", "Mars", "Jupiter"],
+                            "malefics" : ["Mercury", "Venus", "Saturn"],
+                            "neutral"  : ["Sun"],
+                         },
+                         {  #Leo lagna
+                            "benefics" : ["Sun", "Mars", "Jupiter", "Venus"],
+                            "malefics" : ["Moon", "Mercury", "Saturn"],
+                            "neutral"  : [],
+                         },
+                         {  #Virgo lagna
+                            "benefics" : ["Mercury", "Jupiter", "Venus"],
+                            "malefics" : ["Sun", "Moon", "Mars"],
+                            "neutral"  : ["Saturn"],
+                         },
+                         {  #Libra lagna
+                            "benefics" : ["Moon", "Mars", "Mercury", "Venus", "Saturn"],
+                            "malefics" : ["Sun", "Jupiter"],
+                            "neutral"  : [],
+                         },
+                         {  #Scorpio lagna
+                            "benefics" : ["Sun", "Moon", "Mars", "Jupiter"],
+                            "malefics" : ["Mercury", "Venus"],
+                            "neutral"  : ["Saturn"],
+                         },
+                         {  #Saggitarius lagna
+                            "benefics" : ["Sun", "Mars", "Mercury", "Jupiter"],
+                            "malefics" : ["Moon", "Venus", "Saturn"],
+                            "neutral"  : [],
+                         },
+                         {  #Capricorn lagna
+                            "benefics" : ["Moon", "Mercury", "Venus", "Saturn"],
+                            "malefics" : ["Sun", "Jupiter"],
+                            "neutral"  : ["Mars"],
+                         },
+                         {  #Aquarius lagna
+                            "benefics" : ["Sun", "Mars", "Venus", "Saturn"],
+                            "malefics" : ["Moon", "Mercury", "Jupiter"],
+                            "neutral"  : [],
+                         },
+                         {  #Pisces lagna
+                            "benefics" : ["Moon", "Mars", "Mercury", "Jupiter"],
+                            "malefics" : ["Sun", "Venus", "Saturn"],
+                            "neutral"  : [],
+                         },                         
+                       ]
+
 diety_of_nakshatra = dict(zip(nakshatras, nakshatra_dieties))
 ruler_of_nakshatra = dict(zip(nakshatras, nakshatra_rulers))
 lord_of_sign       = dict(zip(signs, signlords))
@@ -205,7 +267,123 @@ def compute_conjuncts(division):
         planet["conjuncts"].remove(planetname)
     return
 
+def compute_BenMalNeu4lagna(lagna, cls):
+    #computes the benefics, malefics and neutral planets for given lagna of a divisional chart
+    pset = ben_mal_neut_bylagna[lagna - 1]
+    for bp in pset["benefics"]:
+        cls["benefics"].append(bp)
+    for mp in pset["malefics"]:
+        cls["malefics"].append(mp)
+    for np in pset["neutral"]:
+        cls["neutral"].append(np)
+    return
 
+def populate_kendraplanets(division):
+    #populates the kendra planets in the given chart. Kendra are house 1,4,7,10
+    #1st House planets
+    for p in division["houses"][0]["planets"]:
+        division["classifications"]["kendra"].append(p)
+    #4th House planets
+    for p in division["houses"][3]["planets"]:
+        division["classifications"]["kendra"].append(p)
+    #7th House planets
+    for p in division["houses"][6]["planets"]:
+        division["classifications"]["kendra"].append(p)
+    #10th House planets
+    for p in division["houses"][9]["planets"]:
+        division["classifications"]["kendra"].append(p)
+    return
+
+def populate_trikonaplanets(division):
+    #populates the trikona planets in the given chart. trikona are house 1,5,9
+    #1st House planets
+    for p in division["houses"][0]["planets"]:
+        division["classifications"]["trikona"].append(p)
+    #5th House planets
+    for p in division["houses"][4]["planets"]:
+        division["classifications"]["trikona"].append(p)
+    #9th House planets
+    for p in division["houses"][8]["planets"]:
+        division["classifications"]["trikona"].append(p)
+    return
+
+def populate_trikplanets(division):
+    #populates the trik planets in the given chart. trik are house 6,8,12
+    #6th House planets
+    for p in division["houses"][5]["planets"]:
+        division["classifications"]["trik"].append(p)
+    #8th House planets
+    for p in division["houses"][7]["planets"]:
+        division["classifications"]["trik"].append(p)
+    #12th House planets
+    for p in division["houses"][11]["planets"]:
+        division["classifications"]["trik"].append(p)
+    return
+
+def populate_upachayaplanets(division):
+    #populates the Upachaya planets in the given chart. Upachaya are house 3,6,11
+    #3rd House planets
+    for p in division["houses"][2]["planets"]:
+        division["classifications"]["upachaya"].append(p)
+    #6th House planets
+    for p in division["houses"][5]["planets"]:
+        division["classifications"]["upachaya"].append(p)
+    #11th House planets
+    for p in division["houses"][10]["planets"]:
+        division["classifications"]["upachaya"].append(p)
+    return
+
+def populate_dharmaplanets(division):
+    #populates the dharma planets in the given chart. dharma are house 1,5,9
+    #1st House planets
+    for p in division["houses"][0]["planets"]:
+        division["classifications"]["dharma"].append(p)
+    #5th House planets
+    for p in division["houses"][4]["planets"]:
+        division["classifications"]["dharma"].append(p)
+    #9th House planets
+    for p in division["houses"][8]["planets"]:
+        division["classifications"]["dharma"].append(p)
+    return
+
+def populate_arthaplanets(division):
+    #populates the artha planets in the given chart. artha are house 2,6,10
+    #2nd House planets
+    for p in division["houses"][1]["planets"]:
+        division["classifications"]["artha"].append(p)
+    #6th House planets
+    for p in division["houses"][5]["planets"]:
+        division["classifications"]["artha"].append(p)
+    #10th House planets
+    for p in division["houses"][9]["planets"]:
+        division["classifications"]["artha"].append(p)
+    return
+
+def populate_kamaplanets(division):
+    #populates the kama planets in the given chart. kama are house 3,7,11
+    #3rd House planets
+    for p in division["houses"][2]["planets"]:
+        division["classifications"]["kama"].append(p)
+    #7th House planets
+    for p in division["houses"][6]["planets"]:
+        division["classifications"]["kama"].append(p)
+    #11th House planets
+    for p in division["houses"][10]["planets"]:
+        division["classifications"]["kama"].append(p)
+    return
+
+def populate_mokshaplanets(division):
+    #populates the moksha planets in the given chart. moksha are house 4,8,12
+    #4th House planets
+    for p in division["houses"][3]["planets"]:
+        division["classifications"]["moksha"].append(p)
+    #8th House planets
+    for p in division["houses"][7]["planets"]:
+        division["classifications"]["moksha"].append(p)
+    #12th House planets
+    for p in division["houses"][11]["planets"]:
+        division["classifications"]["moksha"].append(p)
+    return
 
 def get_planets_in_house(houseno, planetgroup):
     houseplanets = []

@@ -260,6 +260,9 @@ def compute_lagnaChart():
   lagna = update_ascendant(birthday_julien, birth_place)  #Compute ascendant related data
   update_planetaryData(birthday_julien, birth_place)  #Compute navagraha related data
 
+  #computing benefics, malefics and neutral planets for given lagna
+  gen.compute_BenMalNeu4lagna(lagna,data.D1["classifications"])
+
   #computing lagnesh related data for ascendant - not updated by update_ascendant()
   lagnesh = data.lagna_ascendant["lagna-lord"]  #get lagnesh
   data.lagna_ascendant["lagnesh-sign"]  = data.lagna_planets[lagnesh]["sign"]  #check the sign of lagnesh
@@ -281,6 +284,16 @@ def compute_lagnaChart():
   gen.compute_aspects(data.D1)
   gen.compute_aspectedby(data.D1)  
   gen.compute_conjuncts(data.D1) 
+
+  #populating the classification part of divisional chart
+  gen.populate_kendraplanets(data.D1) #kendra planets
+  gen.populate_trikonaplanets(data.D1) #trikona planets
+  gen.populate_trikplanets(data.D1) #trik planets
+  gen.populate_upachayaplanets(data.D1) #upachaya planets
+  gen.populate_dharmaplanets(data.D1) #dharma planets
+  gen.populate_arthaplanets(data.D1) #artha planets
+  gen.populate_kamaplanets(data.D1) #kama planets
+  gen.populate_mokshaplanets(data.D1) #moksha planets
 
   return
 

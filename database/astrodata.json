@@ -724,6 +724,56 @@
                     "Jupiter"
                 ]
             }
-        ]
+        ],
+        "classifications": {
+            "benefics": [
+                "Moon",
+                "Mercury",
+                "Venus",
+                "Saturn"
+            ],
+            "malefics": [
+                "Sun",
+                "Jupiter"
+            ],
+            "neutral": [
+                "Mars"
+            ],
+            "kendra": [
+                "Saturn",
+                "Mars"
+            ],
+            "trikona": [
+                "Saturn",
+                "Sun",
+                "Moon",
+                "Mercury"
+            ],
+            "trik": [
+                "Ketu",
+                "Jupiter",
+                "Venus",
+                "Rahu"
+            ],
+            "upachaya": [
+                "Ketu"
+            ],
+            "dharma": [
+                "Saturn",
+                "Sun",
+                "Moon",
+                "Mercury"
+            ],
+            "artha": [
+                "Ketu",
+                "Mars"
+            ],
+            "kama": [],
+            "moksha": [
+                "Jupiter",
+                "Venus",
+                "Rahu"
+            ]
+        }
     }
 }

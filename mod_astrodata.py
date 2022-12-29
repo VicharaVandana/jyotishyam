@@ -318,11 +318,23 @@ lagna_planets = {"Sun"      : lagna_sun,
                  "Ketu"     : lagna_ketu
                  }
 #charts consists of Divisional charts
-D1 = {"name"      : "Lagna",
-      "symbol"    : "D1",
-      "ascendant" : lagna_ascendant,
-      "planets"   : lagna_planets,
-      "houses"    : []
+D1 = {"name"            : "Lagna",
+      "symbol"          : "D1",
+      "ascendant"       : lagna_ascendant,
+      "planets"         : lagna_planets,
+      "houses"          : [],
+      "classifications" : { "benefics"    : [],
+                            "malefics"    : [],
+                            "neutral"     : [],
+                            "kendra"      : [],
+                            "trikona"     : [],
+                            "trik"        : [],
+                            "upachaya"    : [],
+                            "dharma"      : [],
+                            "artha"       : [],
+                            "kama"        : [],
+                            "moksha"      : []
+                          }
       }
 
 charts = {"D1": D1}
