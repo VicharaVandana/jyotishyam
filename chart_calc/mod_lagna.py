@@ -186,7 +186,7 @@ def update_planetaryData(jd, place):
     else: # Ketu
       #nirayana_long = ketu(sidereal_longitude(jd_ut, swe.RAHU))
       nirayana_long = ketu(sidereal_longitude(jd_ut, swe.MEAN_NODE))
-      retro = 1  #ketu is always in retrograde
+      retro = True  #ketu is always in retrograde
 
     # 12 zodiac signs span 360°, so each one takes 30°
     # 0 = Mesha, 1 = Vrishabha, ..., 11 = Meena

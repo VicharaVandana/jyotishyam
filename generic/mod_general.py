@@ -401,19 +401,24 @@ def update_houses(division):
     '''
     
     for housenum in range(1, 13):   #house 1 to 12
-        house = {"planets"      : [],
-                 "house-num"    : 0,
-                 "sign-num"     : 0,
-                 "sign"         : "Aries",
-                 "sign-lord"    : "Aries",
-                 "rashi"        : "Mesha",
-                 "aspect-planets": []
+        house = {"planets"       : [],
+                 "planet-symbols": [],
+                 "retro-status"  : [],
+                 "house-num"     : 0,
+                 "sign-num"      : 0,
+                 "sign"          : "Aries",
+                 "sign-lord"     : "Aries",
+                 "rashi"         : "Mesha",
+                 "aspect-planets" : []
                 }        
 
         #get planets sitting in that house
         planets = get_planets_in_house(housenum, division["planets"])
         for planet in planets:    
             house["planets"].append(planet)
+            house["planet-symbols"].append(division["planets"][planet]["symbol"])
+            house["retro-status"].append(division["planets"][planet]["retro"])
+            
 
         #put house number
         house["house-num"] = housenum

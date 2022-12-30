@@ -1,0 +1,25 @@
+{
+    "Comment" : "Configurations relating to chart drawn like (a)colour of each house (b)line colour (c) sign number colour (d) chart template ",
+    "background-colour" : "black",
+    "outerbox-colour" : "red",
+    "line-colour" : "black",
+    "sign-colour" : "blue",
+    "malefic-planet-colour" : "red",
+    "benefic-planet-colour" : "darkgreen",
+    "neutral-planet-colour" : "black",
+    "house-colour" : {
+                        "tanbhav"      : "pink",
+                        "dhanbhav"     : "yellow",
+                        "anujbhav"     : "skyblue",
+                        "maatabhav"    : "pink",
+                        "santanbhav"   : "yellow",
+                        "rogbhav"      : "skyblue",
+                        "dampathyabhav": "pink",
+                        "aayubhav"     : "yellow",
+                        "bhagyabhav"   : "skyblue",
+                        "karmabhav"    : "pink",
+                        "laabbhav"     : "yellow",
+                        "karchbhav"    : "skyblue"
+                     },
+    "template"  :   "north-square-classic"
+}

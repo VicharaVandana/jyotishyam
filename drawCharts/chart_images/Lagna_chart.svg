@@ -1,0 +1,22 @@
+<svg id="Lagna_chart" height="500" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style>
+    .sign-num { font: bold 22px sans-serif; }
+    .planet { font: bold 20px sans-serif; }
+  </style>
+  <!-- ********** Chart Diagram ********** -->
+  <rect width="410" height="410" x="5" y="5" style="fill:black;stroke-width:3;stroke:red" />
+  <polygon id ="tanbhav" points="210,10 110,110 210,210 310,110" style="fill:pink;stroke:black;stroke-width:2" />
+  <polygon id ="dhanbhav" points="10,10 210,10 110,110" style="fill:yellow;stroke:black;stroke-width:2" />
+  <polygon id ="anujbhav" points="10,10 10,210 110,110" style="fill:skyblue;stroke:black;stroke-width:2" />
+  <polygon id ="maatabhav" points="110,110 10,210 110,310 210,210" style="fill:pink;stroke:black;stroke-width:2" />
+  <polygon id ="santanbhav" points="10,210 110,310 10,410" style="fill:yellow;stroke:black;stroke-width:2" />
+  <polygon id ="rogbhav" points="210,410 110,310 10,410" style="fill:skyblue;stroke:black;stroke-width:2" />
+  <polygon id ="dampathyabhav" points="210,410 110,310 210,210 310,310" style="fill:pink;stroke:black;stroke-width:2" />
+  <polygon id ="aayubhav" points="210,410 310,310 410,410" style="fill:yellow;stroke:black;stroke-width:2" />
+  <polygon id ="bhagyabhav" points="310,310 410,410 410,210" style="fill:skyblue;stroke:black;stroke-width:2" />
+  <polygon id ="karmabhav" points="310,310 410,210 310,110 210,210" style="fill:pink;stroke:black;stroke-width:2" />
+  <polygon id ="laabbhav" points="410,210 310,110 410,10" style="fill:yellow;stroke:black;stroke-width:2" />
+  <polygon id ="karchbhav" points="310,110 410,10 210,10" style="fill:skyblue;stroke:black;stroke-width:2" />
+
+  Sorry, your browser does not support inline SVG.
+</svg>

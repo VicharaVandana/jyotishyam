@@ -510,7 +510,7 @@
             "Ketu": {
                 "name": "Ketu",
                 "symbol": "Ke",
-                "retro": 1,
+                "retro": true,
                 "pos": {
                     "deg": 20,
                     "min": 32,
@@ -576,6 +576,12 @@
                 "planets": [
                     "Saturn"
                 ],
+                "planet-symbols": [
+                    "Sa"
+                ],
+                "retro-status": [
+                    false
+                ],
                 "house-num": 1,
                 "sign-num": 10,
                 "sign": "Capricorn",
@@ -587,6 +593,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 2,
                 "sign-num": 11,
                 "sign": "Aquarius",
@@ -600,6 +608,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 3,
                 "sign-num": 12,
                 "sign": "Pisces",
@@ -614,6 +624,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 4,
                 "sign-num": 1,
                 "sign": "Aries",
@@ -627,6 +639,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 5,
                 "sign-num": 2,
                 "sign": "Taurus",
@@ -640,6 +654,12 @@
                 "planets": [
                     "Ketu"
                 ],
+                "planet-symbols": [
+                    "Ke"
+                ],
+                "retro-status": [
+                    true
+                ],
                 "house-num": 6,
                 "sign-num": 3,
                 "sign": "Gemini",
@@ -651,6 +671,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 7,
                 "sign-num": 4,
                 "sign": "Cancer",
@@ -664,6 +686,14 @@
                 "planets": [
                     "Jupiter",
                     "Venus"
+                ],
+                "planet-symbols": [
+                    "Ju",
+                    "Ve"
+                ],
+                "retro-status": [
+                    false,
+                    false
                 ],
                 "house-num": 8,
                 "sign-num": 5,
@@ -680,6 +710,16 @@
                     "Moon",
                     "Mercury"
                 ],
+                "planet-symbols": [
+                    "Su",
+                    "Mo",
+                    "Me"
+                ],
+                "retro-status": [
+                    false,
+                    false,
+                    false
+                ],
                 "house-num": 9,
                 "sign-num": 6,
                 "sign": "Virgo",
@@ -690,6 +730,12 @@
             {
                 "planets": [
                     "Mars"
+                ],
+                "planet-symbols": [
+                    "Ma"
+                ],
+                "retro-status": [
+                    false
                 ],
                 "house-num": 10,
                 "sign-num": 7,
@@ -703,6 +749,8 @@
             },
             {
                 "planets": [],
+                "planet-symbols": [],
+                "retro-status": [],
                 "house-num": 11,
                 "sign-num": 8,
                 "sign": "Scorpio",
@@ -713,6 +761,12 @@
             {
                 "planets": [
                     "Rahu"
+                ],
+                "planet-symbols": [
+                    "Ra"
+                ],
+                "retro-status": [
+                    true
                 ],
                 "house-num": 12,
                 "sign-num": 9,

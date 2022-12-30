@@ -1,0 +1,158 @@
+<svg id="birthchart" height="500" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style>
+    .sign-num { font: bold 22px sans-serif; }
+    .planet { font: bold 20px sans-serif; }
+  </style>
+  <!-- ********** Chart Diagram ********** -->
+  <rect width="410" height="410" x="5" y="5" style="fill:black;stroke-width:3;stroke:red" />
+  <polygon id ="tan" points="210,10 110,110 210,210 310,110" style="fill:lime;stroke:red;stroke-width:2" />
+  <polygon id ="dhan" points="10,10 210,10 110,110" style="fill:yellow;stroke:red;stroke-width:2" />
+  <polygon id ="anuj" points="10,10 10,210 110,110" style="fill:skyblue;stroke:red;stroke-width:2" />
+  <polygon id ="maata" points="110,110 10,210 110,310 210,210" style="fill:lime;stroke:red;stroke-width:2" />
+  <polygon id ="santaan" points="10,210 110,310 10,410" style="fill:yellow;stroke:red;stroke-width:2" />
+  <polygon id ="rog" points="210,410 110,310 10,410" style="fill:skyblue;stroke:red;stroke-width:2" />
+  <polygon id ="dampathya" points="210,410 110,310 210,210 310,310" style="fill:lime;stroke:red;stroke-width:2" />
+  <polygon id ="aayu" points="210,410 310,310 410,410" style="fill:yellow;stroke:red;stroke-width:2" />
+  <polygon id ="bhagya" points="310,310 410,410 410,210" style="fill:skyblue;stroke:red;stroke-width:2" />
+  <polygon id ="karma" points="310,310 410,210 310,110 210,210" style="fill:lime;stroke:red;stroke-width:2" />
+  <polygon id ="laab" points="410,210 310,110 410,10" style="fill:yellow;stroke:red;stroke-width:2" />
+  <polygon id ="karch" points="310,110 410,10 210,10" style="fill:skyblue;stroke:red;stroke-width:2" />
+  
+  <!-- ********** Sign Numbers ********** -->
+  <text id ="tan" x="193" y="195" fill="blue" class="sign-num">10</text>
+  <text id ="dhan" x="97" y="95" fill="blue" class="sign-num">11</text>
+  <text id ="anuj" x="70" y="118" fill="blue" class="sign-num">12</text>
+  <text id ="maata" x="170" y="218" fill="blue" class="sign-num">01</text>
+  <text id ="santaan" x="75" y="316" fill="blue" class="sign-num">02</text>  
+  <text id ="rog" x="97" y="335" fill="blue" class="sign-num">03</text>  
+  <text id ="dampathya" x="195" y="240" fill="blue" class="sign-num">04</text>  
+  <text id ="aayu" x="296" y="337" fill="blue" class="sign-num">05</text>  
+  <text id ="bhagya" x="320" y="318" fill="blue" class="sign-num">06</text>  
+  <text id ="karma" x="220" y="218" fill="blue" class="sign-num">07</text>  
+  <text id ="laab" x="318" y="118" fill="blue" class="sign-num">08</text>  
+  <text id ="karch" x="298" y="98" fill="blue" class="sign-num">09</text>
+  
+  <!-- ********** Planets ********** -->
+  <!-- tan bhav -->
+  <text y="140" x="185" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="100" x="195" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="138" x="225" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="100" x="235" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="60" x="205" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="85" x="165" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="130" x="145" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="122" x="263" fill="black" text-decoration="underline" class="planet">Sa</text> 
+
+  <!-- dhan bhav -->
+  <text x="96" y="56" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="35" x="130" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="32" x="70" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="70" x="123" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="70" x="73" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="33" x="40" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="33" x="160" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="36" x="105" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- anuj bhav -->
+  <text x="40" y="110" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="15" y="145" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="12" y="85" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="45" y="135" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="50" y="90" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="13" y="55" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="13" y="175" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="16" y="120" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- maata bhav -->
+  <text x="120" y="200" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="80" y="210" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="118" y="240" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="80" y="250" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="40" y="220" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="65" y="180" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="110" y="160" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="102" y="278" fill="black" text-decoration="underline" class="planet">Sa</text>
+  
+  
+  <!-- santaan bhav -->
+  <text x="40" y="310" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="15" y="345" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="12" y="285" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="50" y="338" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="50" y="288" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="13" y="255" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="13" y="375" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="16" y="320" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- rog bhav -->
+  <text x="97" y="360" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="60" y="375" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="128" y="398" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="100" y="385" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="80" y="403" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="40" y="400" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="162" y="402" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="130" y="370" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- dampathya bhav -->
+  <text y="275" x="182" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="325" x="195" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="285" x="225" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="325" x="235" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="365" x="205" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="340" x="165" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="295" x="145" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="305" x="260" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- aayu bhav -->
+  <text x="300" y="360" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="260" y="375" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="328" y="398" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="300" y="385" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="280" y="403" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="240" y="400" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text x="362" y="402" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="330" y="370" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- bhagya bhav -->
+  <text x="360" y="310" fill="black" text-decoration="underline" class="planet">Sa</text> 
+  <text x="350" y="340" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="350" y="285" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="380" y="273" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="380" y="335" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="369" y="360" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="383" y="250" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="385" y="382" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- karma bhav -->
+  <text x="270" y="200" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="320" y="210" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="282" y="240" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="320" y="250" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="360" y="220" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="335" y="180" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="290" y="160" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="298" y="278" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- laab bhav -->
+  <text x="360" y="110" fill="black" text-decoration="underline" class="planet">Sa</text> 
+  <text x="350" y="140" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="350" y="85" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="380" y="73" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="380" y="135" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="369" y="160" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="383" y="50" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text x="385" y="182" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  <!-- karch bhav -->
+  <text x="296" y="56" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="35" x="330" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="32" x="270" fill="black" text-decoration="underline" class="planet">Sa</text>
+  <text y="70" x="323" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="70" x="273" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="33" x="240" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="33" x="360" fill="black" text-decoration="underline" class="planet">Sa</text>  
+  <text y="36" x="305" fill="black" text-decoration="underline" class="planet">Sa</text>
+
+  Sorry, your browser does not support inline SVG.
+</svg>

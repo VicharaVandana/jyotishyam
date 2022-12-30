@@ -16,6 +16,7 @@ import generic.mod_constants as c
 import chart_calc.mod_lagna as mod_lagna
 import mod_astrodata as data
 import mod_json as js
+import drawCharts.mod_drawChart as dc
 
 if __name__ == "__main__":
     #print(data.lagna_ascendant)
@@ -26,7 +27,10 @@ if __name__ == "__main__":
     print("START")
     #print(data.lagna_planets["Sun"])
     #print(data.D1["houses"])
-    js.dump_astrodata_injson()
+    #js.dump_astrodata_injson()
+    js.load_drawChartConfig()
+    #dc.printconfig()
+    dc.create_chartSVG(data.D1)
     #js.load_birthdatas()
     #print(js.add_birthdata2DB(data.birthdata, "Shyam-Self"))
     #print(data.birthdatas)

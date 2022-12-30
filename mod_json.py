@@ -1,5 +1,6 @@
 import generic.mod_constants as c
 import mod_astrodata as data
+import drawCharts.mod_drawChart as dc
 import json
 
 def dump_astrodata_injson():
@@ -10,6 +11,11 @@ def dump_astrodata_injson():
 def load_birthdatas():
     with open('./database/birthdatas.json', 'r') as json_birthfile:        
         data.birthdatas = json.loads(json_birthfile.read()) 
+    return
+
+def load_drawChartConfig():
+    with open('./drawCharts/chartDraw_cfg.json', 'r') as json_birthfile:        
+        dc.chartCfg = json.loads(json_birthfile.read()) 
     return
 
 def get_birthdata(id):
