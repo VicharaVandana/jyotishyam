@@ -6,22 +6,22 @@
             "name": "Ascendant",
             "symbol": "Asc",
             "pos": {
-                "deg": 19,
-                "min": 37,
-                "sec": 31,
-                "dec_deg": 19.625326941851142
+                "deg": 26,
+                "min": 53,
+                "sec": 12,
+                "dec_deg": 26.886817158112592
             },
-            "nakshatra": "Shravana",
-            "pada": 3,
-            "nak-ruler": "Moon",
-            "nak-diety": "Vishnu",
-            "sign": "Capricorn",
-            "rashi": "Makara",
-            "lagna-lord": "Saturn",
-            "sign-tatva": "Earth/Pruthvi",
-            "lagnesh-sign": "Capricorn",
-            "lagnesh-rashi": "Makara",
-            "lagnesh-disp": "Saturn",
+            "nakshatra": "Revati",
+            "pada": 4,
+            "nak-ruler": "Mercury",
+            "nak-diety": "Pushan",
+            "sign": "Pisces",
+            "rashi": "Meena",
+            "lagna-lord": "Jupiter",
+            "sign-tatva": "Water/Jala",
+            "lagnesh-sign": "Saggitarius",
+            "lagnesh-rashi": "Dhanu",
+            "lagnesh-disp": "Jupiter",
             "status": 2
         },
         "planets": {
@@ -30,26 +30,26 @@
                 "symbol": "Su",
                 "retro": false,
                 "pos": {
-                    "deg": 20,
-                    "min": 51,
-                    "sec": 11,
-                    "dec_deg": 20.85310368918053
+                    "deg": 14,
+                    "min": 21,
+                    "sec": 17,
+                    "dec_deg": 14.354823514975266
                 },
-                "nakshatra": "Hasta",
-                "pada": 4,
-                "nak-ruler": "Moon",
-                "nak-diety": "Surya",
-                "sign": "Virgo",
-                "rashi": "Kanya",
-                "dispositor": "Mercury",
+                "nakshatra": "Swati",
+                "pada": 3,
+                "nak-ruler": "Rahu",
+                "nak-diety": "Vaayu",
+                "sign": "Libra",
+                "rashi": "Tula",
+                "dispositor": "Venus",
                 "tattva": "Fire/Agni",
-                "sign-tatva": "Earth/Pruthvi",
-                "house-rel": "Neutral sign / Sama rashi",
+                "sign-tatva": "Air/Vaayu",
+                "house-rel": "Debilitated / Neecha",
                 "house-nature": "Dharma",
                 "planet-nature": "Krura graha",
                 "gender": "Male",
                 "category": "Deva",
-                "house-num": 9,
+                "house-num": 8,
                 "friends": [
                     "Moon",
                     "Mars",
@@ -67,17 +67,22 @@
                 "varna": "Kshatriya",
                 "guna": "Sathvika",
                 "Aspects": {
-                    "planets": [],
+                    "planets": [
+                        "Moon"
+                    ],
                     "houses": [
-                        3
+                        2
                     ],
                     "signs": [
-                        "Pisces"
+                        "Aries"
                     ]
                 },
-                "Aspected-by": [],
-                "conjuncts": [
+                "Aspected-by": [
                     "Moon",
+                    "Mars",
+                    "Saturn"
+                ],
+                "conjuncts": [
                     "Mercury"
                 ],
                 "status": 2
@@ -87,26 +92,26 @@
                 "symbol": "Mo",
                 "retro": false,
                 "pos": {
-                    "deg": 26,
-                    "min": 56,
-                    "sec": 43,
-                    "dec_deg": 26.94539035948793
+                    "deg": 12,
+                    "min": 49,
+                    "sec": 6,
+                    "dec_deg": 12.818434023611044
                 },
-                "nakshatra": "Chitra",
-                "pada": 2,
-                "nak-ruler": "Mars",
-                "nak-diety": "Vishwakarma",
-                "sign": "Virgo",
-                "rashi": "Kanya",
-                "dispositor": "Mercury",
+                "nakshatra": "Ashwini",
+                "pada": 4,
+                "nak-ruler": "Ketu",
+                "nak-diety": "Ashwini kumaras",
+                "sign": "Aries",
+                "rashi": "Mesha",
+                "dispositor": "Mars",
                 "tattva": "Water/Jala",
-                "sign-tatva": "Earth/Pruthvi",
-                "house-rel": "Friends sign / Mitra rashi",
+                "sign-tatva": "Fire/Agni",
+                "house-rel": "Neutral sign / Sama rashi",
                 "house-nature": "Dharma",
                 "planet-nature": "Soumya graha",
                 "gender": "Female",
                 "category": "Deva",
-                "house-num": 9,
+                "house-num": 2,
                 "friends": [
                     "Sun",
                     "Mercury"
@@ -123,46 +128,50 @@
                 "varna": "Vaishya",
                 "guna": "Sathvika",
                 "Aspects": {
-                    "planets": [],
+                    "planets": [
+                        "Sun",
+                        "Mercury"
+                    ],
                     "houses": [
-                        3
+                        8
                     ],
                     "signs": [
-                        "Pisces"
+                        "Libra"
                     ]
                 },
-                "Aspected-by": [],
-                "conjuncts": [
+                "Aspected-by": [
                     "Sun",
-                    "Mercury"
+                    "Mercury",
+                    "Jupiter"
                 ],
+                "conjuncts": [],
                 "status": 2
             },
             "Mars": {
                 "name": "Mars",
                 "symbol": "Ma",
-                "retro": false,
+                "retro": true,
                 "pos": {
-                    "deg": 0,
-                    "min": 35,
-                    "sec": 51,
-                    "dec_deg": 0.5976096760308849
+                    "deg": 22,
+                    "min": 18,
+                    "sec": 53,
+                    "dec_deg": 22.314925885985588
                 },
-                "nakshatra": "Chitra",
-                "pada": 3,
-                "nak-ruler": "Mars",
-                "nak-diety": "Vishwakarma",
-                "sign": "Libra",
-                "rashi": "Tula",
-                "dispositor": "Venus",
+                "nakshatra": "Revati",
+                "pada": 2,
+                "nak-ruler": "Mercury",
+                "nak-diety": "Pushan",
+                "sign": "Pisces",
+                "rashi": "Meena",
+                "dispositor": "Jupiter",
                 "tattva": "Fire/Agni",
-                "sign-tatva": "Air/Vaayu",
-                "house-rel": "Neutral sign / Sama rashi",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Friends sign / Mitra rashi",
                 "house-nature": "Dharma",
                 "planet-nature": "Krura graha",
                 "gender": "Male",
                 "category": "Deva",
-                "house-num": 10,
+                "house-num": 1,
                 "friends": [
                     "Sun",
                     "Moon",
@@ -181,20 +190,23 @@
                 "guna": "Tamasika",
                 "Aspects": {
                     "planets": [
-                        "Saturn"
+                        "Venus",
+                        "Sun",
+                        "Mercury"
                     ],
                     "houses": [
-                        1,
                         4,
-                        5
+                        7,
+                        8
                     ],
                     "signs": [
-                        "Capricorn",
-                        "Aries",
-                        "Taurus"
+                        "Gemini",
+                        "Virgo",
+                        "Libra"
                     ]
                 },
                 "Aspected-by": [
+                    "Venus",
                     "Saturn",
                     "Ketu"
                 ],
@@ -204,28 +216,28 @@
             "Mercury": {
                 "name": "Mercury",
                 "symbol": "Me",
-                "retro": false,
+                "retro": true,
                 "pos": {
-                    "deg": 24,
-                    "min": 20,
-                    "sec": 53,
-                    "dec_deg": 24.348124448265338
+                    "deg": 2,
+                    "min": 46,
+                    "sec": 41,
+                    "dec_deg": 2.7781435158496777
                 },
                 "nakshatra": "Chitra",
-                "pada": 1,
+                "pada": 3,
                 "nak-ruler": "Mars",
                 "nak-diety": "Vishwakarma",
-                "sign": "Virgo",
-                "rashi": "Kanya",
-                "dispositor": "Mercury",
+                "sign": "Libra",
+                "rashi": "Tula",
+                "dispositor": "Venus",
                 "tattva": "Earth/Pruthvi",
-                "sign-tatva": "Earth/Pruthvi",
-                "house-rel": "Exhalted / Uchha",
+                "sign-tatva": "Air/Vaayu",
+                "house-rel": "Friends sign / Mitra rashi",
                 "house-nature": "Dharma",
                 "planet-nature": "Krura graha",
                 "gender": "Enuch",
                 "category": "Neutral",
-                "house-num": 9,
+                "house-num": 8,
                 "friends": [
                     "Sun",
                     "Venus",
@@ -243,18 +255,23 @@
                 "varna": "Shudra",
                 "guna": "Rajasika",
                 "Aspects": {
-                    "planets": [],
+                    "planets": [
+                        "Moon"
+                    ],
                     "houses": [
-                        3
+                        2
                     ],
                     "signs": [
-                        "Pisces"
+                        "Aries"
                     ]
                 },
-                "Aspected-by": [],
+                "Aspected-by": [
+                    "Moon",
+                    "Mars",
+                    "Saturn"
+                ],
                 "conjuncts": [
-                    "Sun",
-                    "Moon"
+                    "Sun"
                 ],
                 "status": 2
             },
@@ -263,26 +280,26 @@
                 "symbol": "Ju",
                 "retro": false,
                 "pos": {
-                    "deg": 11,
-                    "min": 33,
-                    "sec": 48,
-                    "dec_deg": 11.563462485946275
+                    "deg": 26,
+                    "min": 49,
+                    "sec": 34,
+                    "dec_deg": 26.826160767764407
                 },
-                "nakshatra": "Magha",
-                "pada": 4,
-                "nak-ruler": "Ketu",
-                "nak-diety": "Pitris",
-                "sign": "Leo",
-                "rashi": "Simha",
-                "dispositor": "Sun",
+                "nakshatra": "Uttara Ashadha",
+                "pada": 1,
+                "nak-ruler": "Sun",
+                "nak-diety": "Vishwe Devatas",
+                "sign": "Saggitarius",
+                "rashi": "Dhanu",
+                "dispositor": "Jupiter",
                 "tattva": "Fire/Agni",
                 "sign-tatva": "Fire/Agni",
-                "house-rel": "Friends sign / Mitra rashi",
+                "house-rel": "Own sign / Swa rashi",
                 "house-nature": "Dharma",
                 "planet-nature": "Soumya graha",
                 "gender": "Male",
                 "category": "Deva",
-                "house-num": 8,
+                "house-num": 10,
                 "friends": [
                     "Moon",
                     "Mars",
@@ -301,25 +318,21 @@
                 "guna": "Sathvika",
                 "Aspects": {
                     "planets": [
-                        "Rahu"
+                        "Moon"
                     ],
                     "houses": [
-                        12,
                         2,
-                        4
+                        4,
+                        6
                     ],
                     "signs": [
-                        "Saggitarius",
-                        "Aquarius",
-                        "Aries"
+                        "Aries",
+                        "Gemini",
+                        "Leo"
                     ]
                 },
-                "Aspected-by": [
-                    "Rahu"
-                ],
-                "conjuncts": [
-                    "Venus"
-                ],
+                "Aspected-by": [],
+                "conjuncts": [],
                 "status": 2
             },
             "Venus": {
@@ -327,26 +340,26 @@
                 "symbol": "Ve",
                 "retro": false,
                 "pos": {
-                    "deg": 7,
-                    "min": 17,
-                    "sec": 49,
-                    "dec_deg": 7.297065801709081
+                    "deg": 9,
+                    "min": 59,
+                    "sec": 17,
+                    "dec_deg": 9.988312747234573
                 },
-                "nakshatra": "Magha",
-                "pada": 3,
-                "nak-ruler": "Ketu",
-                "nak-diety": "Pitris",
-                "sign": "Leo",
-                "rashi": "Simha",
-                "dispositor": "Sun",
+                "nakshatra": "Uttara Phalguni",
+                "pada": 4,
+                "nak-ruler": "Sun",
+                "nak-diety": "Bhaga",
+                "sign": "Virgo",
+                "rashi": "Kanya",
+                "dispositor": "Mercury",
                 "tattva": "Air/Vaayu",
-                "sign-tatva": "Fire/Agni",
-                "house-rel": "Enemy sign / Shatru rashi",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Debilitated / Neecha",
                 "house-nature": "Dharma",
                 "planet-nature": "Soumya graha",
                 "gender": "Female",
                 "category": "Danava",
-                "house-num": 8,
+                "house-num": 7,
                 "friends": [
                     "Saturn",
                     "Mercury",
@@ -364,20 +377,21 @@
                 "varna": "Brahmana",
                 "guna": "Rajasika",
                 "Aspects": {
-                    "planets": [],
+                    "planets": [
+                        "Mars"
+                    ],
                     "houses": [
-                        2
+                        1
                     ],
                     "signs": [
-                        "Aquarius"
+                        "Pisces"
                     ]
                 },
                 "Aspected-by": [
+                    "Mars",
                     "Rahu"
                 ],
-                "conjuncts": [
-                    "Jupiter"
-                ],
+                "conjuncts": [],
                 "status": 2
             },
             "Saturn": {
@@ -385,13 +399,13 @@
                 "symbol": "Sa",
                 "retro": false,
                 "pos": {
-                    "deg": 6,
-                    "min": 27,
-                    "sec": 20,
-                    "dec_deg": 6.455557627097448
+                    "deg": 2,
+                    "min": 2,
+                    "sec": 50,
+                    "dec_deg": 2.0472891940211753
                 },
                 "nakshatra": "Uttara Ashadha",
-                "pada": 3,
+                "pada": 2,
                 "nak-ruler": "Sun",
                 "nak-diety": "Vishwe Devatas",
                 "sign": "Capricorn",
@@ -404,7 +418,7 @@
                 "planet-nature": "Krura graha",
                 "gender": "Female",
                 "category": "Danava",
-                "house-num": 1,
+                "house-num": 11,
                 "friends": [
                     "Venus",
                     "Mercury",
@@ -423,12 +437,14 @@
                 "guna": "Tamasika",
                 "Aspects": {
                     "planets": [
-                        "Mars"
+                        "Mars",
+                        "Sun",
+                        "Mercury"
                     ],
                     "houses": [
-                        3,
-                        7,
-                        10
+                        1,
+                        5,
+                        8
                     ],
                     "signs": [
                         "Pisces",
@@ -437,7 +453,7 @@
                     ]
                 },
                 "Aspected-by": [
-                    "Mars"
+                    "Rahu"
                 ],
                 "conjuncts": [],
                 "status": 2
@@ -447,26 +463,26 @@
                 "symbol": "Ra",
                 "retro": true,
                 "pos": {
-                    "deg": 20,
-                    "min": 32,
-                    "sec": 25,
-                    "dec_deg": 20.540447525564844
+                    "deg": 27,
+                    "min": 58,
+                    "sec": 21,
+                    "dec_deg": 27.9726052447741
                 },
-                "nakshatra": "Purva Ashadha",
-                "pada": 3,
-                "nak-ruler": "Venus",
-                "nak-diety": "Apah",
-                "sign": "Saggitarius",
-                "rashi": "Dhanu",
-                "dispositor": "Jupiter",
+                "nakshatra": "Mrigashira",
+                "pada": 2,
+                "nak-ruler": "Mars",
+                "nak-diety": "Soma",
+                "sign": "Taurus",
+                "rashi": "Vrushaba",
+                "dispositor": "Venus",
                 "tattva": "Air/Vaayu",
-                "sign-tatva": "Fire/Agni",
-                "house-rel": "Neutral sign / Sama rashi",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Exhalted / Uchha",
                 "house-nature": "Dharma",
                 "planet-nature": "Krura graha",
                 "gender": "Male",
                 "category": "Danava",
-                "house-num": 12,
+                "house-num": 3,
                 "friends": [
                     "Venus",
                     "Mercury",
@@ -485,24 +501,23 @@
                 "guna": "Tamasika",
                 "Aspects": {
                     "planets": [
+                        "Venus",
                         "Ketu",
-                        "Jupiter",
-                        "Venus"
+                        "Saturn"
                     ],
                     "houses": [
-                        4,
-                        6,
-                        8
+                        7,
+                        9,
+                        11
                     ],
                     "signs": [
-                        "Aries",
-                        "Gemini",
-                        "Leo"
+                        "Virgo",
+                        "Scorpio",
+                        "Capricorn"
                     ]
                 },
                 "Aspected-by": [
-                    "Ketu",
-                    "Jupiter"
+                    "Ketu"
                 ],
                 "conjuncts": [],
                 "status": 2
@@ -512,26 +527,26 @@
                 "symbol": "Ke",
                 "retro": true,
                 "pos": {
-                    "deg": 20,
-                    "min": 32,
-                    "sec": 25,
-                    "dec_deg": 20.540447525564844
+                    "deg": 27,
+                    "min": 58,
+                    "sec": 21,
+                    "dec_deg": 27.972605244774115
                 },
-                "nakshatra": "Punarvasu",
-                "pada": 1,
-                "nak-ruler": "Jupiter",
-                "nak-diety": "Aditi",
-                "sign": "Gemini",
-                "rashi": "Mithuna",
-                "dispositor": "Mercury",
+                "nakshatra": "Jyeshta",
+                "pada": 4,
+                "nak-ruler": "Mercury",
+                "nak-diety": "Indra",
+                "sign": "Scorpio",
+                "rashi": "Vruschika",
+                "dispositor": "Mars",
                 "tattva": "Air/Vaayu",
-                "sign-tatva": "Air/Vaayu",
-                "house-rel": "Friends sign / Mitra rashi",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Exhalted / Uchha",
                 "house-nature": "Dharma",
                 "planet-nature": "Krura graha",
                 "gender": "Female",
                 "category": "Danava",
-                "house-num": 6,
+                "house-num": 9,
                 "friends": [
                     "Venus",
                     "Mercury",
@@ -554,14 +569,14 @@
                         "Rahu"
                     ],
                     "houses": [
-                        10,
-                        12,
-                        2
+                        1,
+                        3,
+                        5
                     ],
                     "signs": [
-                        "Libra",
-                        "Saggitarius",
-                        "Aquarius"
+                        "Pisces",
+                        "Taurus",
+                        "Cancer"
                     ]
                 },
                 "Aspected-by": [
@@ -574,174 +589,66 @@
         "houses": [
             {
                 "planets": [
-                    "Saturn"
-                ],
-                "planet-symbols": [
-                    "Sa"
-                ],
-                "retro-status": [
-                    false
+                    "Mars"
                 ],
                 "house-num": 1,
-                "sign-num": 10,
-                "sign": "Capricorn",
-                "sign-lord": "Saturn",
-                "rashi": "Makara",
-                "aspect-planets": [
-                    "Mars"
-                ]
-            },
-            {
-                "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 2,
-                "sign-num": 11,
-                "sign": "Aquarius",
-                "sign-lord": "Saturn",
-                "rashi": "Kumbha",
-                "aspect-planets": [
-                    "Jupiter",
-                    "Venus",
-                    "Ketu"
-                ]
-            },
-            {
-                "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 3,
                 "sign-num": 12,
                 "sign": "Pisces",
                 "sign-lord": "Jupiter",
                 "rashi": "Meena",
                 "aspect-planets": [
-                    "Sun",
-                    "Moon",
-                    "Mercury",
-                    "Saturn"
+                    "Venus",
+                    "Saturn",
+                    "Ketu"
                 ]
             },
             {
-                "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 4,
+                "planets": [
+                    "Moon"
+                ],
+                "house-num": 2,
                 "sign-num": 1,
                 "sign": "Aries",
                 "sign-lord": "Mars",
                 "rashi": "Mesha",
                 "aspect-planets": [
-                    "Mars",
-                    "Jupiter",
-                    "Rahu"
+                    "Sun",
+                    "Mercury",
+                    "Jupiter"
                 ]
             },
             {
-                "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 5,
+                "planets": [
+                    "Rahu"
+                ],
+                "house-num": 3,
                 "sign-num": 2,
                 "sign": "Taurus",
                 "sign-lord": "Venus",
                 "rashi": "Vrushaba",
                 "aspect-planets": [
-                    "Mars"
+                    "Ketu"
                 ]
             },
             {
-                "planets": [
-                    "Ketu"
-                ],
-                "planet-symbols": [
-                    "Ke"
-                ],
-                "retro-status": [
-                    true
-                ],
-                "house-num": 6,
+                "planets": [],
+                "house-num": 4,
                 "sign-num": 3,
                 "sign": "Gemini",
                 "sign-lord": "Mercury",
                 "rashi": "Mithuna",
                 "aspect-planets": [
-                    "Rahu"
+                    "Jupiter",
+                    "Mars"
                 ]
             },
             {
                 "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 7,
+                "house-num": 5,
                 "sign-num": 4,
                 "sign": "Cancer",
                 "sign-lord": "Moon",
                 "rashi": "Karka",
-                "aspect-planets": [
-                    "Saturn"
-                ]
-            },
-            {
-                "planets": [
-                    "Jupiter",
-                    "Venus"
-                ],
-                "planet-symbols": [
-                    "Ju",
-                    "Ve"
-                ],
-                "retro-status": [
-                    false,
-                    false
-                ],
-                "house-num": 8,
-                "sign-num": 5,
-                "sign": "Leo",
-                "sign-lord": "Sun",
-                "rashi": "Simha",
-                "aspect-planets": [
-                    "Rahu"
-                ]
-            },
-            {
-                "planets": [
-                    "Sun",
-                    "Moon",
-                    "Mercury"
-                ],
-                "planet-symbols": [
-                    "Su",
-                    "Mo",
-                    "Me"
-                ],
-                "retro-status": [
-                    false,
-                    false,
-                    false
-                ],
-                "house-num": 9,
-                "sign-num": 6,
-                "sign": "Virgo",
-                "sign-lord": "Mercury",
-                "rashi": "Kanya",
-                "aspect-planets": []
-            },
-            {
-                "planets": [
-                    "Mars"
-                ],
-                "planet-symbols": [
-                    "Ma"
-                ],
-                "retro-status": [
-                    false
-                ],
-                "house-num": 10,
-                "sign-num": 7,
-                "sign": "Libra",
-                "sign-lord": "Venus",
-                "rashi": "Tula",
                 "aspect-planets": [
                     "Saturn",
                     "Ketu"
@@ -749,85 +656,148 @@
             },
             {
                 "planets": [],
-                "planet-symbols": [],
-                "retro-status": [],
-                "house-num": 11,
+                "house-num": 6,
+                "sign-num": 5,
+                "sign": "Leo",
+                "sign-lord": "Sun",
+                "rashi": "Simha",
+                "aspect-planets": [
+                    "Jupiter"
+                ]
+            },
+            {
+                "planets": [
+                    "Venus"
+                ],
+                "house-num": 7,
+                "sign-num": 6,
+                "sign": "Virgo",
+                "sign-lord": "Mercury",
+                "rashi": "Kanya",
+                "aspect-planets": [
+                    "Mars",
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [
+                    "Sun",
+                    "Mercury"
+                ],
+                "house-num": 8,
+                "sign-num": 7,
+                "sign": "Libra",
+                "sign-lord": "Venus",
+                "rashi": "Tula",
+                "aspect-planets": [
+                    "Moon",
+                    "Mars",
+                    "Saturn"
+                ]
+            },
+            {
+                "planets": [
+                    "Ketu"
+                ],
+                "house-num": 9,
                 "sign-num": 8,
                 "sign": "Scorpio",
                 "sign-lord": "Mars",
                 "rashi": "Vruschika",
-                "aspect-planets": []
+                "aspect-planets": [
+                    "Rahu"
+                ]
             },
             {
                 "planets": [
-                    "Rahu"
+                    "Jupiter"
                 ],
-                "planet-symbols": [
-                    "Ra"
-                ],
-                "retro-status": [
-                    true
-                ],
-                "house-num": 12,
+                "house-num": 10,
                 "sign-num": 9,
                 "sign": "Saggitarius",
                 "sign-lord": "Jupiter",
                 "rashi": "Dhanu",
+                "aspect-planets": []
+            },
+            {
+                "planets": [
+                    "Saturn"
+                ],
+                "house-num": 11,
+                "sign-num": 10,
+                "sign": "Capricorn",
+                "sign-lord": "Saturn",
+                "rashi": "Makara",
                 "aspect-planets": [
-                    "Ketu",
-                    "Jupiter"
+                    "Rahu"
                 ]
+            },
+            {
+                "planets": [],
+                "house-num": 12,
+                "sign-num": 11,
+                "sign": "Aquarius",
+                "sign-lord": "Saturn",
+                "rashi": "Kumbha",
+                "aspect-planets": []
             }
         ],
         "classifications": {
             "benefics": [
                 "Moon",
+                "Mars",
                 "Mercury",
-                "Venus",
-                "Saturn"
+                "Jupiter"
             ],
             "malefics": [
                 "Sun",
+                "Venus",
+                "Saturn"
+            ],
+            "neutral": [],
+            "kendra": [
+                "Mars",
+                "Venus",
                 "Jupiter"
             ],
-            "neutral": [
-                "Mars"
-            ],
-            "kendra": [
-                "Saturn",
-                "Mars"
-            ],
             "trikona": [
-                "Saturn",
-                "Sun",
-                "Moon",
-                "Mercury"
-            ],
-            "trik": [
-                "Ketu",
-                "Jupiter",
-                "Venus",
-                "Rahu"
-            ],
-            "upachaya": [
+                "Mars",
                 "Ketu"
             ],
-            "dharma": [
-                "Saturn",
+            "trik": [
                 "Sun",
-                "Moon",
                 "Mercury"
             ],
-            "artha": [
-                "Ketu",
-                "Mars"
+            "upachaya": [
+                "Rahu",
+                "Saturn"
             ],
-            "kama": [],
-            "moksha": [
-                "Jupiter",
+            "dharma": [
+                "Mars",
+                "Ketu"
+            ],
+            "artha": [
+                "Moon",
+                "Jupiter"
+            ],
+            "kama": [
+                "Rahu",
                 "Venus",
-                "Rahu"
+                "Saturn"
+            ],
+            "moksha": [
+                "Sun",
+                "Mercury"
             ]
         }
+    },
+    "user_details": {
+        "maasa": "Ashwayuja",
+        "vaara": "Saturday",
+        "tithi": "krishna padyami",
+        "karana": "",
+        "nakshatra": "",
+        "yoga": "",
+        "rashi": ""
     }
 }

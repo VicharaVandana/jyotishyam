@@ -337,14 +337,39 @@ D1 = {"name"            : "Lagna",
                           }
       }
 
-charts = {"D1": D1}
+charts = {"D1": D1,
+          "user_details" : {"maasa" :"",
+                            "vaara" : "",
+                            "tithi" : "",
+                            "karana" : "",
+                            "nakshatra" : "",
+                            "yoga" : "",
+                            "rashi" : "",}
+          }
 
 
 
 ############################################################################
 ##                   BIRTH DATA of CURRENT USER                           ##
 ############################################################################
-birthdata = { "DOB"     : { "year"     : 1991,
+birthdata = { "DOB"     : { "year"     : 2020,
+                            "month"    : 10,
+                            "day"      : 31
+                          },
+              "TOB"     : { "hour"     : 16,  #in 24 hour format
+                            "min"      : 55,
+                            "sec"      : 9
+                          }, 
+              "POB"     : { "name"     : "Honavar",
+                            "lon"      : 15.4324,     #+ve for North and -ve for south
+                            "lat"      : 75.6380,     #+ve for East and -ve for West
+                            "timezone" : +5.5
+                          },
+              "name"    : "Shyam Bhat",
+              "Gender"  : c.MALE,  
+              "Comments": "This is Birth data of creator of this software."
+            }
+birthdata3 = { "DOB"     : { "year"     : 1991,
                             "month"    : 10,
                             "day"      : 8
                           },
@@ -359,6 +384,23 @@ birthdata = { "DOB"     : { "year"     : 1991,
                           },
               "name"    : "Shyam Bhat",
               "Gender"  : c.MALE,  
+              "Comments": "This is Birth data of creator of this software."
+            }
+birthdata2 = { "DOB"     : { "year"     : 1997,
+                            "month"    : 7,
+                            "day"      : 5
+                          },
+              "TOB"     : { "hour"     : 8,  #in 24 hour format
+                            "min"      : 40,
+                            "sec"      : 48
+                          }, 
+              "POB"     : { "name"     : "kundgol",
+                            "lon"      : 15.2553,     #+ve for North and -ve for south
+                            "lat"      : 75.2475,     #+ve for East and -ve for West
+                            "timezone" : +5.5
+                          },
+              "name"    : "Deepa Bhat",
+              "Gender"  : c.FEMALE,  
               "Comments": "This is Birth data of creator of this software."
             }
 birthdatas = {}

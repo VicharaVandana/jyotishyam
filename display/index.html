@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="mainscript.js"></script>
+    <title>Jyotishyam computed astrology data</title>
+</head>
+<body>
+    <div class="c_inputSheet" id="inputDataSht">
+        <div id="c_inputoption">
+            <button id="c_optOldUser" onclick="showOldUserSection()">Existing User</button>
+            <button id="c_optNewUser" onclick="showNewUserSection()">New User</button>
+        </div>
+        <div class="c_user-details" id="olduserdata">
+            <label for="users">Choose Existing User:  </label>
+
+            <select name="users" id="existingUserList">                
+            </select>
+
+            <button class="c_submitUsrInput" id="submitOldUserInputData" onclick="">Submit</button>
+        </div>
+        <div class="c_user-details" id="newuserdata">
+            <div class="c_namedetails" id="namedetails">
+                <label for="username">Name:</label>
+                <input type="text" name="username" id="user-name">
+            </div>
+            <div class="c_birth-details" id="birthdata">
+                <div class="c_input-DOB" id="indata-DOB">
+                    <label class="c_birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div class="c_input-TOB" id="indata-TOB">
+                    <label class="c_birthtime">Birth Time:</label>
+                    <input type="time" step="1" id="birthtime" name="birthtime">
+                </div>
+                <div class="c_input-Gender" id="indata-Gender">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="user-gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="c_input-POB" id="indata-POB">
+                    <label class="c_birthplacesection">Birth Place Details:</label>
+                    <label class="c_birthplacename">Birth Place:</label>
+                    <input type="text" id="birthplace" name="birthplace">
+                    <label for="lattitude" >Lattitude: </label>
+                    <input title="+ve for East and -ve for West" type="number" name="lattitude" class="c_lattitude" id="lattitude">
+                    <label for="longitude" >Longitude: </label>
+                    <input title="+ve for North and -ve for south" type="number" name="longitude" class="c_longitude" id="longitude">
+                    <label for="timezone" >TimeZone: </label>
+                    <input title="in hours ex: +5.5 for GMT+5hr30min" type="number" name="timezone" class="c_timezone" id="timezone">
+                </div>
+            </div>
+            <div class="c_inputUsrdata_actions">
+                <button class="c_submitUsrInput" id="submitNewUserInputData" onclick="">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="c_outputSheet" id="outputDataSht">
+        <div class="c_chart-sec" id="lagnachart">
+            <img src="../drawCharts/chart_images/Lagna_chart.svg" title="D1 - Lagna Chart" alt="Unable to display svg images">
+        </div> 
+    </div>
+
+</body>
+</html>

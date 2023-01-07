@@ -260,6 +260,9 @@ def compute_lagnaChart():
   lagna = update_ascendant(birthday_julien, birth_place)  #Compute ascendant related data
   update_planetaryData(birthday_julien, birth_place)  #Compute navagraha related data
 
+  #update miscdata like maasa vaara tithi etc
+  gen.update_miscdata(birthday_julien, birth_place, data.charts["user_details"])
+
   #computing benefics, malefics and neutral planets for given lagna
   gen.compute_BenMalNeu4lagna(lagna,data.D1["classifications"])
 

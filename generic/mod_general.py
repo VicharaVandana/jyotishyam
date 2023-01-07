@@ -12,6 +12,7 @@
 #
 
 import generic.mod_constants as c
+import generic.panchanga as panchanga
 
 ###############################################################################
 ##                                  DATA                                     ##
@@ -143,6 +144,18 @@ ben_mal_neut_bylagna = [ {  #Aries lagna
                          },                         
                        ]
 
+maasa_names = [ "Chaitra", "Vaisakha", "Jyestha", "Ashadha", "Sravana", "Bhadrapada", 
+                "Ashwayuja", "Kartika", "Margashira", "Pushya", "Magha", "Phalguna"]
+
+vaara_names = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+tithi_names = [ "shukla padyami", "shukla dwitiya", "shukla tritiya", "shukla chauti", "shukla panchami",
+                "shukla shashti", "shukla sapthami", "shukla ashtami", "shukla navami", "shukla dashami",
+                "shukla ekadashi", "shukla dwadashi", "shukla trayodashi", "shukla chaturdashi", "poornima",
+                "krishna padyami", "krishna dwitiya", "krishna tritiya", "krishna chauti", "krishna panchami",
+                "krishna shashti", "krishna sapthami", "krishna ashtami", "krishna navami", "krishna dashami",
+                "krishna ekadashi", "krishna dwadashi", "krishna trayodashi", "krishna chaturdashi", "amavasya"]
+
 diety_of_nakshatra = dict(zip(nakshatras, nakshatra_dieties))
 ruler_of_nakshatra = dict(zip(nakshatras, nakshatra_rulers))
 lord_of_sign       = dict(zip(signs, signlords))
@@ -161,6 +174,24 @@ signnum = lambda signstr: signs.index(signstr) + 1
 ###############################################################################
 ##                                 APIs                                      ##
 ###############################################################################
+
+def update_miscdata(jd, place, miscdata):
+    #update maasa
+    (maasanum, leap) = panchanga.masa(jd,place)
+    if(leap == True):
+        miscdata["maasa"] = "adhikamaasa - " + maasa_names[maasanum - 1]
+    else:
+         miscdata["maasa"] = maasa_names[maasanum - 1]
+
+    miscdata["vaara"] = vaara_names[panchanga.vaara(jd)-1]
+
+    miscdata["tithi"] = tithi_names[panchanga.tithi(jd,place)[0] - 1]
+    print(panchanga.jd_to_gregorian(jd))
+    print(place)
+    print(panchanga.tithi(jd,place))
+
+    return
+
 def housediff(fromsign, tosign):
   ''' Computes how many houses is difference between froimsign to to sign
       This function is sed to compute housenumber for planets too '''
@@ -402,8 +433,8 @@ def update_houses(division):
     
     for housenum in range(1, 13):   #house 1 to 12
         house = {"planets"       : [],
-                 "planet-symbols": [],
-                 "retro-status"  : [],
+                 #"planet-symbols": [],
+                 #"retro-status"  : [],
                  "house-num"     : 0,
                  "sign-num"      : 0,
                  "sign"          : "Aries",
@@ -416,8 +447,8 @@ def update_houses(division):
         planets = get_planets_in_house(housenum, division["planets"])
         for planet in planets:    
             house["planets"].append(planet)
-            house["planet-symbols"].append(division["planets"][planet]["symbol"])
-            house["retro-status"].append(division["planets"][planet]["retro"])
+            #house["planet-symbols"].append(division["planets"][planet]["symbol"])
+            #house["retro-status"].append(division["planets"][planet]["retro"])
             
 
         #put house number

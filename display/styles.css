@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(black, blue);;
+}
+
+.c_outputSheet{
+    visibility: hidden;
+}
+
+label{
+    color: whitesmoke;
+    font-weight: bold;}
+
+.c_user-details{
+    display: none;
+}
+
